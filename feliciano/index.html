@@ -34,8 +34,8 @@
 	    		<div class="col-lg-12 d-block">
 		    		<div class="row d-flex">
 		    			<div class="col-md pr-4 d-flex topper align-items-center">
-					    	<div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
-						    <span class="text">(91) 9 8102-4770</span>
+					    	<!-- <div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div> -->
+						    <!-- <span class="text">(91) 9 8102-4770</span> -->
 					    </div>
 					    <!-- <div class="col-md pr-4 d-flex topper align-items-center">
 					    	<div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
@@ -57,12 +57,12 @@
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav ml-auto">
-	        	<li class="nav-item"><a href="index.html" class="nav-link">Menu</a></li>
-	        	<li class="nav-item"><a href="about.html" class="nav-link">Sobre</a></li>
-	        	<li class="nav-item"><a href="menu.html" class="nav-link">Serviços</a></li>
-	        	<li class="nav-item"><a href="blog.html" class="nav-link">Produtos</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contato</a></li>
+	        <ul class="navbar-nav ml-auto"> <!--MENU-->
+	        	<li class="nav-item"><a href="#inicio" class="nav-link">Início</a></li>
+	        	<li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+	        	<li class="nav-item"><a href="#servicos" class="nav-link">Serviços</a></li>
+	        	<!-- <li class="nav-item"><a href="#produtos" class="nav-link">Produtos</a></li> -->
+	          <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
             <!-- <li class="nav-item cta"><a href="reservation.html" class="nav-link">Book a table</a></li> -->
             <li class="nav-item "><a href="https://www.facebook.com/belemvirtual" target=_blank><img src="/feliciano/images/facebook.png" style="padding-top: 10px;padding-left: 5px;"></a></li>
             <li class="nav-item "><a href="mailto:contato@belemvirtual.com?Subject=Coloque%20o%20titulo%20da%20mensagem%20aqui" target=_blank ><img src="/feliciano/images/email.png" style="padding-top: 10px;padding-left: 5px;"></a></li>
@@ -71,9 +71,10 @@
 	    </div>
 	  </nav>
     <!-- END nav -->
-    
-    <section class="home-slider owl-carousel js-fullheight">
-      <div class="slider-item js-fullheight" style="background-image: url(images/img1.jpg);">
+  <!-- INÍCIO CARROSEL -->
+    <section class="home-slider owl-carousel js-fullheight" id="inicio"> 
+        <!-- IMG 1 DO CARROSEL -->
+      <div class="slider-item js-fullheight" style="background-image: url(images/painelsolar.jpg);">
       	<div class="overlay"></div>
         <div class="container">
           <div class="row slider-text js-fullheight justify-content-center align-items-center" data-scrollax-parent="true">
@@ -86,8 +87,8 @@
           </div>
         </div>
       </div>
-
-      <div class="slider-item js-fullheight" style="background-image: url(images/img2.jpg);">
+    <!-- IMG 2 DO CARROSEL -->
+      <div class="slider-item js-fullheight" style="background-image: url(images/belem.jpg);">
       	<div class="overlay"></div>
         <div class="container">
           <div class="row slider-text js-fullheight justify-content-center align-items-center" data-scrollax-parent="true">
@@ -100,8 +101,8 @@
           </div>
         </div>
       </div>
-
-      <div class="slider-item js-fullheight" style="background-image: url(images/img3.jpg);">
+    <!-- IMG 3 DO CARROSEL -->
+      <div class="slider-item js-fullheight" style="background-image: url(images/casasolar.jpg);">
       	<div class="overlay"></div>
         <div class="container">
           <div class="row slider-text js-fullheight justify-content-center align-items-center" data-scrollax-parent="true">
@@ -114,8 +115,37 @@
           </div>
         </div>
       </div>
-    </section>
+    <!-- IMG 4 DO CARROSEL -->
+    <div class="slider-item js-fullheight" style="background-image: url(/feliciano/images/img1.jpg);">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row slider-text js-fullheight justify-content-center align-items-center" data-scrollax-parent="true">
 
+          <div class="col-md-12 col-sm-12 text-center ftco-animate">
+            <span class="subheading">Kuara</span>
+            <h1 class="mb-4">Energia Solar</h1>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- IMG 5 DO CARROSEL -->
+    <div class="slider-item js-fullheight" style="background-image: url(/feliciano/images/img3.jpg);">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row slider-text js-fullheight justify-content-center align-items-center" data-scrollax-parent="true">
+
+          <div class="col-md-12 col-sm-12 text-center ftco-animate">
+            <span class="subheading">Kuara</span>
+            <h1 class="mb-4">Energia Solar</h1>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </section>
+  <!-- INÍCIO DO RODAPE SLIDE -->
     <section class="ftco-section ftco-no-pt ftco-no-pb">
     	<div class="container-fluid">
     		<div class="row">
@@ -164,9 +194,8 @@
     		</div>
     	</div>
     </section>
-	
-
-		<section class="ftco-section ftco-wrap-about">
+  <!-- INÍCIO DO SOBRE -->
+		<section class="ftco-section ftco-wrap-about" id="sobre">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-7 d-flex">
@@ -188,7 +217,7 @@
 			</div>
 		</section>
 
-		
+	<!-- NÚMEROS ABAIXO DO SOBRE -->
 		<section class="ftco-section ftco-counter img ftco-no-pt" id="section-counter">
     	<div class="container">
     		<div class="row d-md-flex">
@@ -235,7 +264,8 @@
     	</div>
     </section>
 
-		<section class="ftco-section bg-light">
+  <!-- INÍCIO SERVIÇOS -->
+		<section class="ftco-section bg-light" id="servicos">
 			<div class="container">
 				<div class="row justify-content-center mb-5 pb-2">
           <div class="col-md-12 text-center heading-section ftco-animate">
@@ -279,9 +309,10 @@
           </div>
         </div>
 			</div>
-		</section>
-
-    <section class="ftco-section">
+    </section>
+    
+  <!-- INÍCIO PRODUTOS -->
+    <!-- <section class="ftco-section" id="produtos">
     	<div class="container">
     		<div class="row no-gutters justify-content-center mb-5 pb-2">
           <div class="col-md-12 text-center heading-section ftco-animate">
@@ -408,8 +439,9 @@
         	</div>
         </div>
     	</div>
-    </section>
-    
+    </section> -->
+
+  <!-- NÃO DEFINIDA -->
 		<section class="ftco-section">
 			<div class="container">
 				<div class="row justify-content-center mb-5 pb-2">
@@ -490,8 +522,9 @@
 				</div>
 			</div>
 		</section>
-
-		<section class="ftco-section img" style="background-image: url(images/bg_3.jpg)" data-stellar-background-ratio="0.5">
+  
+  <!-- INÍCIO CONTATO -->
+		<section class="ftco-section img" style="background-image: url(images/bg_3.jpg)" data-stellar-background-ratio="0.5 " id="contato">
 			<div class="container">
 				<div class="row d-flex">
           <div class="col-md-7 ftco-animate makereservation p-4 px-md-5 pb-md-5">
@@ -557,8 +590,9 @@
         </div>
 			</div>
 		</section>
-		
-		<section class="ftco-section testimony-section img">
+  
+  <!-- AVALIAÇÕES DE CLIENTES -->
+		<!-- <section class="ftco-section testimony-section img">
 			<div class="overlay"></div>
       <div class="container">
         <div class="row justify-content-center mb-5">
@@ -644,9 +678,9 @@
           </div>
         </div>
       </div>
-    </section>
-		
-		<section class="ftco-section bg-light">
+    </section> -->
+	<!-- MINI BLOG -->
+		<!-- <section class="ftco-section bg-light">
 			<div class="container">
 				<div class="row justify-content-center mb-5">
           <div class="col-md-7 text-center heading-section ftco-animate">
@@ -708,8 +742,9 @@
           </div>
         </div>
 			</div>
-		</section>
-		
+		</section> -->
+  
+  <!-- RODAPÉ -->
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
         <div class="row mb-5">
@@ -738,6 +773,7 @@
               </ul>
             </div>
           </div>
+          <!-- INTEGRAÇÃO INSTAGRAM -->
           <div class="col-md-6 col-lg-3">
              <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">Instagram</h2>
