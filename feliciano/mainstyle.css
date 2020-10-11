@@ -1,0 +1,12 @@
+@font-face {
+  font-family: fonte1;
+  src: url(/feliciano/Cookit-Regular.otf);
+}
+@font-face {
+  font-family: fonte2;
+  src: url(/feliciano/Cookit-Regular.ttf);
+}
+
+body {
+  font-family: fonte1;
+}
